@@ -128,7 +128,6 @@ pip install opencv-python numpy matplotlib
 python src/leaf_detector_demo.py
 ```
 
-
 ![分割效果对比示例](./demo.jpeg)
 
 ---

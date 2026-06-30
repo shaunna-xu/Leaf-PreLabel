@@ -105,7 +105,7 @@ def main():
     # ---------- 7. 打印详细时间对比 ----------
     print("\n=== 运行时间对比 ===")
     for mode, _, _, _, elapsed in results:
-        mode_names = {'seed': '种子点引导', 'padding': '边缘复制', 'twostage': '两阶段分割'}
+        mode_names = {'seed': '种子点引导', 'padding': '复制外边界', 'twostage': '两阶段分割'}
         print(f"{mode_names[mode]}: {elapsed:.4f} 秒")
 
 
