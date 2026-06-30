@@ -95,7 +95,7 @@ def main():
                         (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
 
         ax.imshow(img_marked)
-        mode_names = {'seed': '种子点引导', 'padding': '边缘复制', 'twostage': '两阶段分割'}
+        mode_names = {'seed': '种子点引导', 'padding': '复制外边界', 'twostage': '两阶段分割'}
         ax.set_title(f"{mode_names[mode]}\n耗时: {elapsed:.4f} 秒", fontsize=12)
         ax.axis('off')
 
