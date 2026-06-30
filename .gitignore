@@ -1,0 +1,16 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略大量测试图片（只保留示例）
+data/raw/*/*.jpg
+data/raw/*/*.png
+!data/raw/*/sample.jpg
+
+# 忽略运行产生的输出结果
+outputs/
+
+# IDE 配置（如果你用 VSCode 或 PyCharm）
+.vscode/
+.idea/
