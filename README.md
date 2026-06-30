@@ -128,8 +128,7 @@ pip install opencv-python numpy matplotlib
 python src/leaf_detector_demo.py
 ```
 
-> 提示：您可以通过截取运行结果图，将其命名为 `demo.jpg` 并放在项目根目录下，然后取消下面这行的注释（删除开头的 `<!--` 和 `-->`）：
-> `<!-- ![分割效果对比示例](./demo.jpg) -->`
+![分割效果对比示例](./demo.jpeg)
 
 ---
 
